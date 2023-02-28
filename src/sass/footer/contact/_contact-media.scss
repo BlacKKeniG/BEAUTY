@@ -1,0 +1,83 @@
+@media (max-width: 1023px) {
+    .contact {
+        padding-top: 20px;
+
+        &__wrapper {
+            height: 100px;
+            align-items: start;
+            position: relative;
+            text-align: center;
+        }
+
+        &__address {
+            width: 100%;
+            position: absolute;
+            bottom: 20px;
+            left: 50%;
+            transform: translateX(-50%);
+
+        }
+    }
+}
+
+@media (max-width: 767px) {
+    .contact {
+        &__social-link {
+            &:hover {
+                scale: none;
+
+            }
+        }
+
+        &_callback-block {
+            justify-content: right;
+            column-gap: 10px;
+        }
+
+        &_tell {
+            font-size: 14px;
+        }
+
+
+    }
+}
+
+@media (max-width: 567px) {
+    .contact {
+        padding-top: 10px;
+        height: 180px;
+
+        &__wrapper {
+            display: block;
+            height: 170px;
+            width: 100%;
+        }
+
+        &__social {
+            width: 100%;
+        }
+
+        &__address {
+            font-size: 12px;
+        }
+
+        &_callback-block {
+            display: block;
+        }
+
+        &_tell {
+            position: absolute;
+            font-size: 12px;
+            bottom: 40px;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+
+        &_btn {
+            position: absolute;
+            bottom: 65px;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+    }
+}

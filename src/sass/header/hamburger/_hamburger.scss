@@ -1,0 +1,27 @@
+.hamburger {
+    display: none;
+    width: 36px;
+    height: 21px;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+
+    &__line {
+        display: block;
+        width: 30px;
+        height: 3px;
+        background: $dark_color;
+
+        &_long {
+            width: 36px;
+        }
+    }
+
+    &:hover {
+        align-items: flex-start;
+
+        .hamburger__line {
+            background: $accent_color;
+        }
+    }
+}

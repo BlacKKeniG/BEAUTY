@@ -1,0 +1,70 @@
+.promo {
+    width: 100vw;
+    height: 604px;
+    position: relative;
+    display: flex;
+    align-items: center;
+
+    &__bg {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background-color: $accent_color;
+        z-index: -3;
+    }
+
+    &__content {
+        display: inline-block;
+        width: 308px;
+        min-height: 219px;
+        color: $white_color;
+    }
+
+    &__header {
+        font-size: 48px;
+        font-weight: 700;
+        margin-bottom: 50px;
+    }
+
+    &__descr {
+        display: block;
+        line-height: 20px;
+    }
+
+    &__btn {
+        margin-top: 50px;
+    }
+
+    &__wrapper {
+        display: inline-block;
+        position: absolute;
+        top: 50%;
+        margin-left: 15px;
+        transform: translateY(-50%);
+        width: 859px;
+        height: 859px;
+        z-index: -1;
+    }
+
+    &__circule_big {
+        border-radius: 50%;
+        width: 100%;
+        height: 100%;
+        background: rgba(255, 255, 255, 0.3);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    &__circule_small {
+        border-radius: 50%;
+        width: 677px;
+        height: 677px;
+        width: 79%;
+        height: 79%;
+        background: rgba(255, 255, 255, 0.4);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}

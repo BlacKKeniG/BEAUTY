@@ -1,0 +1,12 @@
+.policy {
+    background-color: $gray_color;
+
+    &__wrapper {
+        color: #828282;
+        font-size: 12px;
+        height: 64px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+}

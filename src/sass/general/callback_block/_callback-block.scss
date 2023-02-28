@@ -1,0 +1,20 @@
+.callback-block {
+    min-width: 337px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    &__tell {
+        font-size: 16px;
+
+    }
+}
+
+.callback-block a {
+    transition: all 0.2s;
+    color: $dark_color;
+
+    &:hover {
+        scale: 1.1;
+    }
+}

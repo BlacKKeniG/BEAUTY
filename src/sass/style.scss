@@ -1,0 +1,35 @@
+@import "base/reset_style";
+@import "base/fonts";
+@import "base/variables";
+@import "base/container";
+@import "base/container-media";
+
+@import "general/btns/btns";
+@import "general/btns/btns-media";
+@import "general/callback_block/callback-block";
+@import "general/inputs/inputs";
+
+@import "header/top_menu/top-menu";
+@import "header/top_menu/top-menu-media";
+@import "header/logo_block/logo-block";
+@import "header/logo_block/logo-block-media";
+@import "header/logo/logo";
+@import "header/logo/logo-media";
+@import "header/main_menu/main-menu";
+@import "header/main_menu/main-menu-media";
+@import "header/hamburger/hamburger";
+@import "header/hamburger/hamburger-media";
+
+@import "main/promo/promo";
+@import "main/promo/promo-media";
+@import "main/spesial_offers/spesial-offer";
+@import "main/spesial_offers/spesial-offer-media";
+@import "main/get_bonuses/get-bonuses";
+@import "main/get_bonuses/get-bonuses-media";
+@import "main/visit_us/visit-us";
+@import "main/visit_us/visit-us-media";
+
+@import "footer/contact/contact";
+@import "footer/contact/contact-media";
+@import "footer/policy/policy";
+@import "footer/policy/policy-media";

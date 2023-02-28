@@ -1,0 +1,30 @@
+.visit-us {
+    padding: 35px 45px 35px 40px;
+    background-color: $accent_color;
+    display: flex;
+    justify-content: flex-start;
+
+    &__content-wrapper {
+        display: grid;
+        row-gap: 25px;
+        color: $white_color;
+    }
+
+    &__header {
+        font-size: 18px;
+        font-weight: 700;
+    }
+
+    &__desr {
+        line-height: 20px;
+    }
+
+    &__icon {
+        max-width: 140px;
+        max-height: 140px;
+    }
+
+    &__btn {
+        height: 35px;
+    }
+}

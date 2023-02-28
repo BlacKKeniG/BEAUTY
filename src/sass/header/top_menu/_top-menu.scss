@@ -1,0 +1,38 @@
+.top-menu {
+    position: fixed;
+    top: 0px;
+    width: 100vw;
+    height: 50px;
+    background-color: #E5E5E5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 100;
+
+    &__links {
+        width: 450px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    &__link {
+        transition: all 0.2s;
+
+        &__mobail {
+            display: none;
+        }
+
+        &:hover {
+            scale: 1.2;
+        }
+    }
+
+    &__link a {
+        color: $dark_color;
+
+        &:hover {
+            color: $accent_color;
+        }
+    }
+}

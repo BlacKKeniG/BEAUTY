@@ -1,0 +1,54 @@
+.special-offers {
+    padding: 80px 0 50px 0;
+    background-color: $gray_color;
+
+    &__header {
+        font-weight: 700;
+        font-size: 24px;
+        display: flex;
+        justify-content: space-between;
+
+    }
+
+    &__header img {
+        max-height: 62px;
+    }
+
+    &__items {
+        padding: 15px 0 100px 0;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 30px;
+    }
+
+    &__item {
+        width: 255px;
+        text-align: center;
+        padding: 25px 30px;
+        background-color: $white_color;
+        display: flex;
+        flex-direction: column;
+        row-gap: 20px;
+    }
+
+    &__img {
+        margin: 0 auto;
+    }
+
+    &_btn {
+        width: 130px;
+        height: 35px;
+        margin: 0 auto;
+    }
+
+    &__bottom-block {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        justify-content: space-between;
+        gap: 30px;
+    }
+
+
+
+}

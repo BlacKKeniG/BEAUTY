@@ -1,0 +1,36 @@
+@media (max-width: 1440px) {
+    .logo {
+        width: 210px;
+        height: 60px;
+
+        &__company-name {
+            font-size: 30px;
+        }
+    }
+}
+
+@media (max-width: 1023px) {
+    .logo {
+        width: 155px;
+        height: 45px;
+
+        &__company-name {
+            font-size: 25px;
+            letter-spacing: 2px;
+        }
+    }
+}
+
+
+
+@media (max-width: 567px) {
+    .logo {
+        width: 130px;
+        height: 40px;
+
+        &__company-name {
+            font-size: 20px;
+            letter-spacing: 1px;
+        }
+    }
+}

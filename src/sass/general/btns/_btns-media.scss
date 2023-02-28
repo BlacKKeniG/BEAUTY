@@ -1,0 +1,31 @@
+@media(max-width: 768px) {
+    .btn {
+        &:active {
+            scale: none;
+        }
+
+        &:hover {
+            scale: none;
+        }
+
+        &_fill {
+            &:hover {
+                background-color: $accent_color;
+            }
+
+            &:active {
+                background-color: $accent_color;
+            }
+        }
+
+        &_transparent {
+            &:hover {
+                background-color: none;
+            }
+
+            &:active {
+                background-color: none;
+            }
+        }
+    }
+}

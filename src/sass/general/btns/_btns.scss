@@ -1,0 +1,44 @@
+.btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 170px;
+    height: 40px;
+    border-radius: 40px;
+    transition: all 0.2s;
+    cursor: pointer;
+
+    &:hover {
+        scale: 1.1;
+    }
+
+    &:active {
+        scale: 1;
+    }
+
+    &_fill {
+        border: 1px solid $white_color;
+        background-color: $accent_color;
+        color: $white_color;
+
+        &:hover {
+            background: #8eeb86;
+        }
+
+        &:active {
+            background: $accent_color;
+        }
+    }
+
+    &_transparent {
+        border: 1px solid $accent_color;
+
+        &:hover {
+            background-color: $accent_color;
+        }
+
+        &:active {
+            background-color: none;
+        }
+    }
+}

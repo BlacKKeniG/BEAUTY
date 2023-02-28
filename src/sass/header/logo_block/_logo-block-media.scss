@@ -1,0 +1,31 @@
+@media (max-width: 1440px) {
+    .logo-block {
+        padding: 60px 0 10px 0;
+    }
+}
+
+@media (max-width: 1023px) {
+    .logo-block {
+        padding: 45px 0 10px 0;
+    }
+
+}
+
+@media (max-width: 567px) {
+
+    .logo-block .container {
+        width: 100vw;
+    }
+
+    .logo-block {
+        padding: 35px 0 5px 0;
+
+        &__wrapper {
+            padding: 0 15px;
+        }
+
+        &__wrapper .callback-block {
+            display: none;
+        }
+    }
+}
